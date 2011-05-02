@@ -24,8 +24,8 @@ test:
   reconnect: false
   database: blog_test
   pool: 5
-  username: root
-  password:
+  username: developer
+  password: developerpass
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -34,6 +34,6 @@ production:
   reconnect: false
   database: blog_production
   pool: 5
-  username: root
-  password:
+  username: developer
+  password: developerpass
   socket: /var/run/mysqld/mysqld.sock
