@@ -7,3 +7,9 @@
   <b>Comment:</b>
   <%= comment.body %>
 </p>
+
+<p>
+  <%= link_to 'Destory Comment', [comment.post, comment],
+               :confirm => 'Are you sure to delete this comment?',
+               :method => :delete %>
+</p>
